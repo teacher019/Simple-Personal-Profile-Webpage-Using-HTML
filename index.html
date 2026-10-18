@@ -1,0 +1,237 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul Khalek | Personal Profile</title>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Personal Profile</h1>
+        <p>Hello! I am Abdul Khalek, a Teacher and Software Developer.</p>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <a href="#about">About Me</a> |
+        <a href="#education">Education</a> |
+        <a href="#contact">Contact Form</a> |
+        <a href="#media">Multimedia</a>
+    </nav>
+
+    <hr>
+
+    <main>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyh9ZR7j2Oi5JHGSIe2mt2cgeVlwQb4mXg3kXIaPgEJQ&s=10"
+                alt="Profile portrait"
+                width="200"
+            >
+
+            <p>
+                My name is <b>Abdul Khalek</b>. I am a teacher with
+                more than 37 years of teaching experience.
+                I am also learning modern web and app development.
+            </p>
+
+            <p>
+                I enjoy <i>teaching students</i>, learning new technology,
+                and developing useful applications.
+                My goal is to become a better
+                <u>Web Developer</u>.
+            </p>
+
+            <p>
+                My favorite goal is:
+                <mark>Learn, Practice, and Build Projects!</mark>
+            </p>
+
+            <details>
+                <summary>Read More About Me</summary>
+                <p>
+                    I have a background in Mathematics and Education.
+                    I am interested in HTML, CSS, JavaScript, React,
+                    Python, Django, WordPress, and Flutter.
+                </p>
+            </details>
+
+            <br>
+
+            <button type="button" onclick="showMessage()">
+                Click Me
+            </button>
+        </section>
+
+        <hr>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2>My Academic Information</h2>
+
+            <table border="1" cellpadding="10">
+                <thead>
+                    <tr>
+                        <th>Degree</th>
+                        <th>Institution</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>B.Sc. in Mathematics</td>
+                        <td>University of Chittagong</td>
+                        <td>1987</td>
+                    </tr>
+
+                    <tr>
+                        <td>B.Ed.</td>
+                        <td>Education Institution</td>
+                        <td>1992</td>
+                    </tr>
+
+                    <tr>
+                        <td>Professional Development</td>
+                        <td>Web and App Development</td>
+                        <td>Ongoing</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Contact Form Section -->
+        <section id="contact">
+            <h2>Personal Information Form</h2>
+
+            <form action="#" method="get">
+
+                <label for="name">Name:</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your name"
+                    required
+                >
+
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+                <br><br>
+
+                <label for="password">Password:</label>
+                <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    placeholder="Enter password"
+                    required
+                >
+
+                <br><br>
+
+                <p>Gender:</p>
+
+                <input type="radio" id="male" name="gender" value="Male" required>
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label>
+
+                <input type="radio" id="other" name="gender" value="Other">
+                <label for="other">Other</label>
+
+                <br><br>
+
+                <p>Hobbies:</p>
+
+                <input type="checkbox" id="reading" name="hobbies" value="Reading">
+                <label for="reading">Reading</label>
+
+                <input type="checkbox" id="teaching" name="hobbies" value="Teaching">
+                <label for="teaching">Teaching</label>
+
+                <input type="checkbox" id="coding" name="hobbies" value="Coding">
+                <label for="coding">Coding</label>
+
+                <br><br>
+
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+
+            </form>
+        </section>
+
+        <hr>
+
+        <!-- Multimedia Section -->
+        <section id="media">
+            <h2>Multimedia</h2>
+
+            <h3>Audio Example</h3>
+
+            <audio controls>
+                <source
+                    src="https://www.w3schools.com/html/horse.mp3"
+                    type="audio/mpeg"
+                >
+                Your browser does not support the audio element.
+            </audio>
+
+            <h3>Video Example</h3>
+
+            <video width="320" controls>
+                <source
+                    src="https://www.w3schools.com/html/mov_bbb.mp4"
+                    type="video/mp4"
+                >
+                Your browser does not support the video element.
+            </video>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>
+            &copy; 2026 Abdul Khalek. All rights reserved.
+        </p>
+
+        <p>
+            GitHub:
+            <a href="https://github.com/teacher019" target="_blank" rel="noopener noreferrer">
+                Visit My GitHub Profile
+            </a>
+        </p>
+    </footer>
+
+    <!-- JavaScript for Interactive Button -->
+    <script>
+        function showMessage() {
+            alert("Thank you for visiting my personal profile!");
+        }
+    </script>
+
+</body>
+</html>
